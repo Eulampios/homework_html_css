@@ -26,9 +26,9 @@
     * e. color: #7D7987
 12.	Для заголовков h2 задать класс
 13.	К данному классу указать стиль 
-* a. color: coral;
-* b. font-style: normal;
-* c. font-weight: 700;
-* d. font-size: 36px;
-* e. line-height: 80px;
+    * a. color: coral;
+    * b. font-style: normal;
+    * c. font-weight: 700;
+    * d. font-size: 36px;
+    * e. line-height: 80px;
 

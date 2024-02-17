@@ -1,3 +1,99 @@
+@font-face {
+    font-display: swap;
+    font-family: 'gilroy';
+    src: url(../fonts/gilroy-regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 
+@font-face {
+    font-display: swap;
+    font-family: 'gilroy';
+    src: url(..//fonts/gilroy-bold.ttf);
+    font-weight: bold;
+}
 
+@font-face {
+    font-display: swap;
+    font-family: 'gilroy';
+    src: url(../fonts/gilroy-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'gilroy';
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+:root {
+    --accent-color: #F25822;
+    --p-color: #888888;
+}
+
+body {
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.header__logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.header__logo a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header__logo-link-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.be {
+    color: var(--accent-color);
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__nav-list {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.--nav-item-home {
+    color: var(--accent-color);
+}
+
+.--nav-item-features {
+    padding-right: 12px;
+    background: url(../images/svg/icon_dropdown.svg) no-repeat right center;
+}
 

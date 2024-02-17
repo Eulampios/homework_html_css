@@ -49,6 +49,13 @@ a {
     margin: 0 auto;
 }
 
+.main, .header, .brands {
+    width: 100%;
+}
+
+/* ======================================================================= */
+/* header styles START */
+
 .header__wrapper {
     padding-top: 15px;
     display: flex;
@@ -89,9 +96,7 @@ a {
     gap: 17px;
 }
 
-.header__nav-item a:hover,
-.header__nav-item a:active,
-.header__nav-item a:focus {
+:where(.header__nav-item) a:hover, a:active, a:focus {
     opacity: .5;
 }
 
@@ -103,4 +108,100 @@ a {
     padding-right: 12px;
     background: url(../images/svg/icon_dropdown.svg) no-repeat right center;
 }
+
+/* header styles END */
+/* ======================================================================= */
+/* meta styles START */
+
+.meta__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    margin-bottom: 259px;
+}
+
+.meta__text {
+    max-width: 522px;
+    position: relative;
+}
+
+.meta__text-header {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+
+.meta__text-subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--p-color);
+    margin-bottom: 37px;
+}
+
+.meta__go {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.meta__go-btn {
+    width: 140px;
+    height: 50px;
+    background: var(--accent-color);
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 72px;
+}
+
+.meta__go-btn-label {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.meta__go-btn:hover {
+    opacity: .5;
+}
+
+.meta__go-btn-text {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.meta__image {
+    max-width: 610px;
+}
+
+.meta__image-pic {
+    width: 100%;
+}
+
+/* meta styles END */
+/* ======================================================================= */
+/* brands styles START */
+
+.brands__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.--brands_logo-liva {
+    margin-left: -27px;
+}
+
+/* brands styles END */
+
+
+
 
